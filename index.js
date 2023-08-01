@@ -1,19 +1,19 @@
 /*
-1.declare a value
+1.declare a variable value
 
-2.write a if statement with condition value is true print true
+2.write a if statement with condition value is true print "true"
 
-3.if else value === null then print "The null value is falsy"
+3.if else the value is null (value === null) then print "The null value is falsy"
 
-4.if else === undefined  then print "undefined is falsy"
+4.if else value is undefined the (value === undefined)  then print "undefined is falsy"
 
-5.if else === 0 then print "The number 0 is falsy (the only falsy number)"
+5.if else value is zero (value === 0) then print "The number 0 is falsy (the only falsy number)"
 
-6.if else === "" then print "The empty string is falsy (the only falsy string)"
+6.if else the value is a empty string (value === "") then print "The empty string is falsy (the only falsy string)"
 
 */
 
-let value = "I am a string";
+let value = 2;
 if(value ){
     console.log("true");
 }
@@ -32,3 +32,4 @@ else if(value === 0){
 else if(value === ""){
     console.log("The empty string is falsy (the only falsy string)")
 }
+

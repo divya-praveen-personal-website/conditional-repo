@@ -2,7 +2,7 @@
 
 1. declare a sum,num1 and num2
 
-2. add num1 and num2
+2. add num1 and num2 then assign it to the sum
 
 3. if (sum <= -1000) is less than -1000 print sum + " is less than -1000";
 
@@ -15,7 +15,7 @@
 7. if else(sum >=100) sum is greater than 100 then print sum + " is greater than 100";
 */
 
-let num1 = 0,num2 =-5,sum;
+let num1 = a,num2 =b,sum;
 
 sum=num1+num2;
 
@@ -33,4 +33,7 @@ else if(sum > 0 && sum <= 100){
 }
 else if(sum > 100){
      console.log(sum + " is greater than 100");
+}
+else{
+    console.log("Please enter numbers");
 }
